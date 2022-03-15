@@ -1,6 +1,7 @@
 <header>
+	<!-- TODO: switch CDN from discord lmao -->
 	<h1>
-		<img src="" alt="ArumLogo" />
+		<img src="https://cdn.discordapp.com/attachments/948382155455725621/953095963067695164/arum.png" alt="ArumLogo" />
 	</h1>
 </header>
 
