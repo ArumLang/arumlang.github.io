@@ -12,7 +12,8 @@
 <style lang="scss">
 	main {
 		text-align: center;
-		padding: 1em;
+		// padding: 1em;
+		padding: 0px;
 		max-width: 240px;
 		margin: 0 auto;
 	}

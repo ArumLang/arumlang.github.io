@@ -8,7 +8,6 @@
 <style lang="scss">
 	header {
 		background-color: #777;
-		padding: 20px;
 	}
 
 	h1 {
