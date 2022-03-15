@@ -21,7 +21,6 @@
 			however, you are able to use it standalone.
 		</p>
 	</div>
-	
 </main>
 
 <style lang="scss">
