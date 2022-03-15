@@ -23,10 +23,14 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #ffe4db;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
+	}
+
+	p {
+		color: #fff;
 	}
 
 	@media (min-width: 640px) {
