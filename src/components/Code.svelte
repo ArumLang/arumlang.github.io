@@ -1,6 +1,6 @@
 <div style="float: right; margin: 8rem;">
 	<div style="text-align: left; padding-bottom: 1rem; padding-top: 1rem" id="code">
-		<p>use: "std"</p><br>
+		<p><span class="blue">use:</span><span class="orange">"std"</span></p><br>
 
 		<p><span class="green">modu</span> <span class="blue">Kerbal</span> &#123;</p>
 			<p><span class="green">&emsp;name:</span> <span class="red">String</span>;</p>
@@ -20,12 +20,16 @@
 </div>
 
 <style lang="scss">
+	@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
 	#code {
 		background-color: black;
 		border-radius: 3px;
 		border: white;
 
 		color: white;
+
+		font-family: 'Cascadia Code', monospace;
 
 		padding-left: 1rem;
 
