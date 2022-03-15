@@ -1,9 +1,11 @@
 <script lang="ts">
 	import Topbar from "./components/Header.svelte";
+	import Code from "./components/Code.svelte";
 </script>
 
 <main>
 	<Topbar />
+	<Code />
 
 	<div class="align-left" style="margin: 8rem">
 		<h2>Beginner friendly</h2>
@@ -35,13 +37,32 @@
 		margin: 0 auto;
 	}
 
-	code {
-		background-color: white;
-		border-radius: 3px;
-		border: black;
+	.red {
+		color: red;
+	}
 
-		width: 8rem;
-		height: 18rem;
+	.orange {
+		color: orange;
+	}
+
+	.yellow {
+		color: yellow;
+	}
+
+	.green {
+		color: green;
+	}
+
+	.blue {
+		color: blue;
+	}
+
+	.purple {
+		color: purple;
+	}
+
+	.white {
+		color: black;
 	}
 
 	.align-left {
