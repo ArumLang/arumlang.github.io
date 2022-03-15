@@ -37,34 +37,6 @@
 		margin: 0 auto;
 	}
 
-	.red {
-		color: red;
-	}
-
-	.orange {
-		color: orange;
-	}
-
-	.yellow {
-		color: yellow;
-	}
-
-	.green {
-		color: green;
-	}
-
-	.blue {
-		color: blue;
-	}
-
-	.purple {
-		color: purple;
-	}
-
-	.white {
-		color: black;
-	}
-
 	.align-left {
 		text-align: left;
 	}
