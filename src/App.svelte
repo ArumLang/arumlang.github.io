@@ -5,10 +5,21 @@
 <main>
 	<Topbar />
 
-	<div class="align-left" style="padding: 4rem">
-		<h1>Arum</h1>
-		<p>A beginner friendly scripting language</p>
+	<div class="align-left" style="margin: 8rem">
+		<h2>Beginner friendly</h2>
+		<p>Focus on making your syntax look sleet and concrete while<br>
+			not making it hard for others to get into scripting.
+		</p>
 	</div>
+	<div class="align-left" style="margin: 8rem; padding-bottom: 1rem;">
+		<h2>Designed for places</h2>
+		<p>Arum is designed for specific places like game engines<br>
+			and modding, as well as general modding for games.<br>
+			Arum is meant to be paired together with a game engine or game<br>
+			however, you are able to use it standalone.
+		</p>
+	</div>
+	
 </main>
 
 <style lang="scss">
@@ -24,8 +35,21 @@
 		margin: 0 auto;
 	}
 
+	code {
+		background-color: white;
+		border-radius: 3px;
+		border: black;
+
+		width: 8rem;
+		height: 18rem;
+	}
+
 	.align-left {
 		text-align: left;
+	}
+
+	.align-right {
+		text-align: right;
 	}
 
 	body {
@@ -36,6 +60,13 @@
 		color: #ffe4db;
 		text-transform: uppercase;
 		font-size: 4em;
+		font-weight: 100;
+	}
+
+	h2 {
+		color: #ffe4db;
+		text-transform: uppercase;
+		font-size: 3em;
 		font-weight: 100;
 	}
 
