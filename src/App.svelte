@@ -5,17 +5,27 @@
 <main>
 	<Topbar />
 
-	<h1>Arum</h1>
-	<p>A beginner friendly scripting language</p>
+	<div class="align-left" style="padding: 4rem">
+		<h1>Arum</h1>
+		<p>A beginner friendly scripting language</p>
+	</div>
 </main>
 
 <style lang="scss">
+	@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 	main {
 		text-align: center;
+
+		font-family: 'Fredoka', sans-serif;
+
 		// padding: 1em;
 		padding: 0px;
 		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	.align-left {
+		text-align: left;
 	}
 
 	body {
