@@ -1,7 +1,10 @@
 <script lang="ts">
+	import Topbar from "./components/Header.svelte";
 </script>
 
 <main>
+	<Topbar />
+
 	<h1>Arum</h1>
 	<p>A beginner friendly scripting language</p>
 </main>
