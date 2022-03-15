@@ -18,6 +18,10 @@
 		margin: 0 auto;
 	}
 
+	body {
+		padding: 0px;
+	}
+
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
