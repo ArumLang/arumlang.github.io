@@ -7,13 +7,13 @@
 	<Topbar />
 	<Code />
 
-	<div class="align-left" style="margin: 8rem">
+	<div class="align-left">
 		<h2>Beginner friendly</h2>
 		<p>Focus on making your syntax look sleet and concrete while<br>
 			not making it hard for others to get into scripting.
 		</p>
 	</div>
-	<div class="align-left" style="margin: 8rem; padding-bottom: 1rem;">
+	<div class="align-left" style="padding-bottom: 1rem;">
 		<h2>Designed for places</h2>
 		<p>Arum is designed for specific places like game engines<br>
 			and modding, as well as general modding for games.<br>
@@ -38,6 +38,7 @@
 
 	.align-left {
 		text-align: left;
+		margin: 8rem;
 	}
 
 	.align-right {
