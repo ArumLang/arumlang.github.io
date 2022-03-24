@@ -36,4 +36,12 @@
 		max-width: 7.5rem;
 		margin-left: 3rem;
 	}
+	
+	button {
+    cursor: pointer; border: solid 1px transparent; border-radius: 5px; color: white; background: none;
+}
+
+button:hover {
+    opacity: 0.75;
+}
 </style>
